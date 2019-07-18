@@ -3,9 +3,10 @@ import ReactDOM from "react-dom";
 import notielogo from "./pictures/notie.png";
 import Button from 'react-bootstrap/Button';
 
-import Circles from './components/Circles'
+import Circles from './components/Circles/circles'
 import CONSTANTS from './constants/constants'
 import "./App.css";
+import SideBar from "./components/SideBar/SideBar";
 
 function App() {
   const sleep = (milliseconds) => {
