@@ -6,6 +6,7 @@ import Test from './test';
 
 import LoadView from './components/LoadView/loadview'
 import "./App.css";
+import SideBar from "./components/SideBar/SideBar";
 
 class App extends Component {
 
