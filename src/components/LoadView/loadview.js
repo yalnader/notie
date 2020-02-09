@@ -48,6 +48,11 @@ class LoadView extends Component {
           })
         })
       })
+      console.log(Date.now());
+    }
+
+    componentWillUnmount(){
+      this.startLoad();
     }
 
     render() {

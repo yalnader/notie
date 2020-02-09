@@ -2,6 +2,7 @@
 
     padding-top:12; 
     justify-content: center;
+    /* position: absolute ; */
 
 }
 .bars{
@@ -14,6 +15,7 @@
     list-style: none;
     animation: fadeIn 1.5s;
     /* animation: fadeOut 1.5s; */
+    position: absolute;
 }
 
 .sideBarStyleOut{

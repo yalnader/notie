@@ -59,7 +59,7 @@ class SideBar extends Component{
         return(
         <>
             <div className="sideBar">
-                <Button size="lg" variant="warning" className ="bars" onClick={()=> this.popUp()}>{bars}</Button>
+                <Button size="lg" variant='outline-primary' style={{backgroundColor:'#49c8f8'}} className ="bars" onClick={()=> this.popUp()}>{bars}</Button>
                 
                 
                 {   this.state.isActive?

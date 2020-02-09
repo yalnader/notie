@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 
 import LoadView from './components/LoadView/loadview'
 import "./App.css";
-import SideBar from "./components/SideBar/SideBar";
+import NoteView from "./components/NoteView/NoteView";
 
 class App extends Component {
 
@@ -26,7 +26,7 @@ class App extends Component {
         {
           this.state.isLoading?
           <><LoadView onReady={this.handleReady}/></>:
-          <SideBar/>
+          <NoteView />
         }
         
       </div>

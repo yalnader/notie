@@ -1,0 +1,14 @@
+.form{
+    text-align: center;
+    /* padding: 2em; */
+}
+input{
+    border-radius: 1em ;
+}
+.card{
+    width: fit-content ;
+    background-color:#49c8f8;
+    flex: 1;
+    word-wrap:break-word;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
